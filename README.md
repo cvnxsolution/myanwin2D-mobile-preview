@@ -27,6 +27,26 @@ Since the app involves **stock market prediction with win/loss outcomes**, users
 
 ---
 
+### 🔐 Login Screen
+
+The **Login Screen** provides returning users with access to the MyanWin2D app.
+
+It supports the same sign-in options introduced during signup, allowing users to log in with:
+
+- **Email**
+- **Google**
+- **Telegram**
+
+This ensures consistency across user sessions and simplifies access for users who prefer one-tap or chat-based logins.
+
+> 🔁 _All login methods are optional during signup, but required to re-enter the app._  
+> 📌 _Only a visual preview is included. Codebase and backend logic remain private._
+
+**📷 Screenshot Preview:**  
+![Login Screen](./screenshots/login-screen.jpg)
+
+---
+
 ## 📸 Screenshots
 
 Visuals of screens built and tested on physical devices. Each image includes a short description of its role in the app flow.
