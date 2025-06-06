@@ -47,11 +47,28 @@ This ensures consistency across user sessions and simplifies access for users wh
 
 ---
 
+### 🔄 Forgot Password Screen
+
+The **Forgot Password Screen** helps users recover their account access if they forget their login credentials.
+
+This screen only supports **Email-based recovery**, as email is the primary and most consistent login method across users.
+
+> 📩 _Users enter their registered email to receive a recovery link._  
+> 🚫 _Google and Telegram logins do not support password-based recovery._  
+> 📌 _This is a visual-only preview. No code or backend logic is shared._
+
+**📷 Screenshot Preview:**  
+![Forgot Password Screen](./screenshots/forgot-password-screen.jpg)
+
+---
+
 ## 📸 Screenshots
 
 Visuals of screens built and tested on physical devices. Each image includes a short description of its role in the app flow.
 
 - [x] Signup Screen — user onboarding and identity tracking
+- [x] Login Screen — returning user authentication
+- [x] Forgot Password Screen — email-based account recovery
 
 _More screens will be added soon..._
 
