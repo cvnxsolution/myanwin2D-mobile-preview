@@ -113,6 +113,16 @@ _More screens will be added soon..._
 
 ## 📃 License
 
-This project is licensed under the [MIT License](./LICENSE).
-
 © 2025 **CVNXSolution**
+
+This project’s content (screen images) is licensed under the  
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+You may share and redistribute the material with proper credit, but not use it commercially or create derivatives.
+
+---
+
+## 👤 Author
+
+All screen images in this repo were created by **cvnxsolution** in 2025.  
+They are protected under the CC BY-NC-ND 4.0 license.
