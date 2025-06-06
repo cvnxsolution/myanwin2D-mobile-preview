@@ -1,2 +1,61 @@
-# myanwin2D-mobile-preview
+# 📊 myanwin2D-mobile-preview
+
 This repo contains real screen outputs from the MyanWin2D mobile app, built with React Native. It's a visual-only development showcase — no code is shared here. All UI was built directly with code, not with design tools like Figma.
+
+---
+
+### 📱 Signup Screen
+
+The **Signup Screen** is the entry point of the MyanWin2D mobile app.
+
+Since the app involves **stock market prediction with win/loss outcomes**, users are required to sign up before participating. This is done to:
+
+- ✅ Track user identity for managing payouts
+- ✅ Ensure each prediction is tied to a unique account
+
+**Login options include:**
+
+- **Email** – a simple, widely supported method
+- **Google** – for users who prefer one-tap sign-in
+- **Telegram** – selected due to its high usage rate in Myanmar
+
+> 🛑 _Age or region restrictions are not enforced. Signup is open to all users._  
+> 📌 _Only a visual preview is shown. Source code and backend logic are not included for intellectual property protection._
+
+**📷 Screenshot Preview:**  
+![Signup Screen](./screenshots/signup-screen.jpg)
+
+---
+
+## 📸 Screenshots
+
+Visuals of screens built and tested on physical devices. Each image includes a short description of its role in the app flow.
+
+- [x] Signup Screen — user onboarding and identity tracking
+
+_More screens will be added soon..._
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React Native
+- **Platform:** Android (tested on physical device)
+- **Auth Options:** Email, Google, Telegram
+- **Screenshots:** Taken directly from device
+- **Design Tools:** No external design tools were used (e.g., Figma)
+
+---
+
+## 📦 Project Status
+
+🧪 **In Development** – Screens are being developed and shared gradually.  
+🚫 Codebase is private and not part of this repository.
+
+---
+
+## 📃 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+© 2025 **CVNXSolution**
