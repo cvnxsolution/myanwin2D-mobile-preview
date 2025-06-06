@@ -62,6 +62,25 @@ This screen only supports **Email-based recovery**, as email is the primary and 
 
 ---
 
+---
+
+### 🔑 Code Confirmation Screen
+
+The **Code Confirmation Screen** is part of the account recovery process.
+
+- After users request a password reset via email, they receive a numeric code.
+- This screen allows users to enter the reset code to verify their identity.
+- Input fields are designed as separate boxes for each digit to improve clarity and reduce input errors.
+- Users can easily return to the login screen or access customer support from here.
+
+> 🔒 _This verification step ensures only authorized users can reset their password._  
+> 📌 _Visual preview only; backend logic is kept private for intellectual property protection._
+
+**📷 Screenshot Preview:**  
+![Code Confirmation Screen](./screenshots/code-confirmation-screen.jpg)
+
+---
+
 ## 📸 Screenshots
 
 Visuals of screens built and tested on physical devices. Each image includes a short description of its role in the app flow.
@@ -69,6 +88,7 @@ Visuals of screens built and tested on physical devices. Each image includes a s
 - [x] Signup Screen — user onboarding and identity tracking
 - [x] Login Screen — returning user authentication
 - [x] Forgot Password Screen — email-based account recovery
+- [x] Code Confirmation Screen — code input for password reset verification
 
 _More screens will be added soon..._
 
