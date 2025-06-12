@@ -76,23 +76,6 @@ The **Code Confirmation Screen** is part of the account recovery process.
 > 🔒 _This verification step ensures only authorized users can reset their password._  
 > 📌 _Visual preview only; backend logic is kept private for intellectual property protection._
 
-**📷 Screenshot Preview:**  
-![Code Confirmation Screen](./screenshots/code-confirmation-screen.jpg)
-
----
-
-## 📸 Screenshots
-
-Visuals of screens built and tested on physical devices. Each image includes a short description of its role in the app flow.
-
-- [x] Signup Screen — user onboarding and identity tracking
-- [x] Login Screen — returning user authentication
-- [x] Forgot Password Screen — email-based account recovery
-- [x] Code Confirmation Screen — code input for password reset verification
-- [x] Search Agent | Browse and find payment agents
-
-_More screens will be added soon..._
-
 ---
 
 ## 🕵️‍♂️ Search Agent Screen
@@ -117,6 +100,62 @@ This screen enhances **user trust and transaction safety** by providing a clear 
 ![Search Agent Screen](./screenshots/search-agent-screen.jpg)
 
 ---
+
+## 💵 How to Deposit Screen
+
+After selecting an agent from the **Search Agent Screen**, users are guided to the **How to Deposit Screen**, which provides a secure and clear 2-step process to complete a deposit.
+
+---
+
+### 🧾 Step 1 – Payment Method Selection
+
+This step displays the list of **payment methods** accepted by the selected agent.
+
+Each method includes:
+
+- 📛 Payment Provider Name (e.g., KBZPay, WavePay)
+- 💳 Agent’s Payment Number or QR Code
+- 🖼️ Visual Icon for each payment method
+
+These options are **dynamically rendered** based on what the agent has registered in the database. The UI automatically adjusts if agents have one or multiple options.
+
+> 🔁 The design is **extensible** to support future payment methods without UI refactor.
+
+---
+
+### 📤 Step 2 – Submit Payment Screenshot
+
+Once payment is made, the user is instructed to:
+
+- 📸 Take a screenshot of the transaction
+- 💬 Send it directly to the **agent’s Telegram account**, which is displayed on the screen
+
+The Telegram username is pulled from the database in real time to ensure up-to-date communication info.
+
+> 🛑 Payments are made **outside the app**. This step is to inform the user where to send confirmation for manual verification.
+
+**📷 Screenshot Preview:**  
+![How to Deposit Screen](./screenshots/how-to-deposit-screen.jpg)
+
+---
+
+**📷 Screenshot Preview:**  
+![Code Confirmation Screen](./screenshots/code-confirmation-screen.jpg)
+
+---
+
+## 📸 Screenshots
+
+Visuals of screens built and tested on physical devices. Each image includes a short description of its role in the app flow.
+
+- [x] Signup Screen — user onboarding and identity tracking
+- [x] Login Screen — returning user authentication
+- [x] Forgot Password Screen — email-based account recovery
+- [x] Code Confirmation Screen — code input for password reset verification
+- [x] Search Agent | Browse and find payment agents
+- [x] Deposit Instruction screen | Instructions with payment info
+
+_More screens will be added soon..._
 
 ## 🛠️ Tech Stack
 
