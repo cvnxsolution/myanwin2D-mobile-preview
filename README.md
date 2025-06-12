@@ -76,6 +76,9 @@ The **Code Confirmation Screen** is part of the account recovery process.
 > 🔒 _This verification step ensures only authorized users can reset their password._  
 > 📌 _Visual preview only; backend logic is kept private for intellectual property protection._
 
+**📷 Screenshot Preview:**  
+![Code Confirmation Screen](./screenshots/code-confirmation-screen.jpg)
+
 ---
 
 ## 🕵️‍♂️ Search Agent Screen
@@ -136,11 +139,6 @@ The Telegram username is pulled from the database in real time to ensure up-to-d
 
 **📷 Screenshot Preview:**  
 ![How to Deposit Screen](./screenshots/how-to-deposit-screen.jpg)
-
----
-
-**📷 Screenshot Preview:**  
-![Code Confirmation Screen](./screenshots/code-confirmation-screen.jpg)
 
 ---
 
