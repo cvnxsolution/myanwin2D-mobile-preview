@@ -89,8 +89,32 @@ Visuals of screens built and tested on physical devices. Each image includes a s
 - [x] Login Screen — returning user authentication
 - [x] Forgot Password Screen — email-based account recovery
 - [x] Code Confirmation Screen — code input for password reset verification
+- [x] Search Agent | Browse and find payment agents
 
 _More screens will be added soon..._
+
+---
+
+## 🕵️‍♂️ Search Agent Screen
+
+The **Search Agent Screen** allows users to browse and find verified agents who support deposits, withdrawals, or assistance.
+
+#### Key Features:
+
+- **Search Bar:** Filter agents by **name** or **Agent ID**
+- **Agent List View:**
+  - 🧑 Agent Name
+  - 🆔 Agent ID (unique identifier)
+  - 💰 Accepted Payment Methods (displayed with recognizable icons like WavePay, KBZPay, etc.)
+
+#### Purpose:
+
+This screen enhances **user trust and transaction safety** by providing a clear and searchable list of authorized agents.
+
+> 🧾 This is a **read-only UI preview**. Real-time data and payment integrations are handled privately in the backend.
+
+**📷 Screenshot:**  
+![Search Agent Screen](./screenshots/search-agent-screen.jpg)
 
 ---
 
